@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<link rel="stylesheet" href="/Styles/contactstyle.css">
+<link rel="Stylesheet" href="/Styles/nav.css">
+<link rel="shortcut icon" type="image/jpg" href="/Image/Favicon.jpg"/>
+</head>
+<body>
+<!-- Nav bar -->
+    <!-- smaller screen hamburger menu -->
+    <nav class="ham-menu">
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="/Pages/Contact.html">CONTACT</a></li>
+          <li><a href="/Pages/Products.html">PRODUCTS</a></li>
+          <li><a href="/Pages/About.html">ABOUT</a></li>
+          <li><a href="/Pages/Home.html">HOME</a></li>
+        </ul>
+      </nav>
+      <script src="/Javascripts/HamMenu.js"></script>
+    <!-- full screen nav bar -->
+    <section>
+            <nav class="stroke">
+                <ul class="nav">
+                    <a href="/Pages/Home.html">
+                    <img class="logo" src="/Image/logo.png">
+                    </a>
+                    <div class="nav-text">
+                        <li><a href="/Pages/Home.html">HOME</a></li>
+                        <li><a href="/Pages/About.html">ABOUT</a></li>
+                        <li><a href="/Pages/Products.html">PRODUCTS</a></li>
+                        <li><a href="/Pages/Contact.html">CONTACT</a></li>
+                    </div>
+                </ul>    
+            </nav>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="text" style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Ask any questions or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img class="image" src="/Image/contact.jpg">
+          </div>
+          <div class="column">
+          <div class="form">
+            <form action="/Pages/Thanks.html">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <label for="state">State</label>
+              <select id="state" name="state">
+                <option value="NSW">NSW</option>
+                <option value="QLD">QLD</option>
+                <option value="NT">NT</option>
+                <option value="WA">WA</option>
+                <option value="TAS">TAS</option>
+                <option value="SA">SA</option>
+                <option value="VIC">VIC</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="footer">
+      <h1>Copyright J.Kang 2021</h1>
+  </section>
+    </html>
